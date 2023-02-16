@@ -30,8 +30,8 @@ node_modules
 # Other
 .DS_Store
 dist/
-lib/
-es/
+lib/*.map
+es/*.map
 editor/
 _examples/
 __examples/
