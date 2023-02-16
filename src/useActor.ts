@@ -1,5 +1,5 @@
 import { ActorRef, EventObject, Sender } from 'xstate';
-import { shallowRef, isRef, watch, Ref } from 'vue';
+import { shallowRef, isRef, watch, Ref } from '@vue/composition-api';
 
 export function isActorWithState<T extends ActorRef<any>>(
   actorRef: T

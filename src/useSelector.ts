@@ -1,4 +1,4 @@
-import { onMounted, onBeforeUnmount, shallowRef } from 'vue';
+import { onMounted, onBeforeUnmount, shallowRef } from '@vue/composition-api';
 import { ActorRef, Subscribable } from 'xstate';
 import { defaultGetSnapshot } from './useActor';
 
